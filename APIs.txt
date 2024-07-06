@@ -1,0 +1,119 @@
+Documentation  of code
+
+1: Adding Database:
+Request Type: “POST”
+URL: http://localhost:34464/datasource
+Request Body Data: {
+    "source_url":"LENOVO-IDEAPAD\\SQL_SERVER",
+    "source_database":"NADRA",
+    "source_user":"Project2",
+    "source_password":1234,
+    "neo4j_url":"bolt://localhost:7687",
+    "neo4j_database":"database2",
+    "neo4j_user":"alinaqi",
+    "neo4j_password":12345678,
+    "keep_relations":1
+    }
+Note: "keep_relations" can be 0 or 1, if we keep it 0 it will just import tables will not retain any relation (as if we are importing from relational database), if kept “1” it will retain relations on basis of PRIMARY and FOREIGN Keys
+
+2: Adding/Deleting Relation:
+Request Type: “POST”
+URL: http://localhost:34464/createrelation
+Request Body Data: 
+{
+    "database":"testingdb",
+    "single_node":1,
+    "add_del":"add",
+    "relations":"multiple",
+    "source":"Person",
+    "Source_property":"CNIC",
+    "target":"TAX_PAYER",
+    "Target_property":"CNIC",
+    "relationship":"TAX_PAYER_New",
+    "Source_property_value":"5551641111",
+    "Target_Property_value":"5551641111",
+    "username":"alinaqi",
+    "password":"12345678",
+    "URI":"bolt://localhost:7687"
+}
+Note: "database" is name of neo4j graph.
+“single_node” can be “1” if we want to create a relation between two specific nodes, or it can be “0” if we want to create relation between multiple nodes could be more than two. “relations” can be “multiple” or “single” if we want to add a single relation between nodes then it should be set to “single”, else “multiple”
+“relationship” It is name of relation that we are creating or deleting
+“add_del” if adding relation then it should be “add” else “del”
+If we are creating relation between all nodes on basis of some property then “Source_property_value” and “Target_property_value” should be set to “ ”.
+
+
+Deleting relation: Example Request Body 
+{
+    "database":"testingdb",
+    "single_node":1,
+    "add_del":"del",
+    "relations":"single",
+    "source":"Person",
+    "Source_property":"CNIC",
+    "target":"TAX_PAYER",
+    "Target_property":"CNIC",
+    "relationship":"TAX_PAYER_New",
+    "Source_property_value":"5551641111",
+    "Target_Property_value":"5551641111",
+    "username":"alinaqi",
+    "password":"12345678",
+    "URI":"bolt://localhost:7687"
+}
+
+
+2: Getting Parent and Child Nodes:
+Request Type: “POST”
+URL: http://localhost:34464/getperson
+Request Body Data: 
+Getting child nodes from parent node
+{
+    "table":"Person",
+    "field":"CNIC",
+    "field_value":5551879999,
+    "username":"alinaqi",
+    "password":"12345678",
+    "URI":"bolt://localhost:7687",
+    "database":"testingdb"
+}
+Getting further child nodes of basis received child nodes
+{
+    "table":"Person",
+    "field":"node_id,
+    "field_value":560,
+    "username":"alinaqi",
+    "password":"12345678",
+    "URI":"bolt://localhost:7687",
+    "database":"testingdb"
+}
+
+
+Note: if we are getting Parent node then “field” should be some property of nodes. If we are getting child nodes then “field” should be “node_id” and “field_value” should be value of field.
+
+1: Adding Database:
+Request Type: “POST”
+URL: http://localhost:34464/exportdata
+Request Body Data: 
+{
+    "URI": "bolt://localhost:7687",
+    "AUTH": {
+        "username": "alinaqi",
+        "password": 12345678
+    },
+    "database": "database2",
+    "types": "json",
+    "how": "all",
+    "path": "H:/output111.json",
+    "config": null,
+    "query": null
+}
+
+Note:  “database” is name of neo4j graph
+
+“types” is format in which we want the graph, ['json', 'graphml', 'csv']
+
+“how” is ['all', 'data', 'graph', 'query'] what data we want to export, like on basis 
+
+of  a “query” result or “all” to get whole graph
+
+“query” is null if we want to get whole graphs, else it is string to get data.

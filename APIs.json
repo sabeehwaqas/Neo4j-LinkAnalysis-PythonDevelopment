@@ -1,0 +1,201 @@
+{
+  "edges": [
+      {
+          "id": "546",
+          "label": "Person",
+          "properties": {
+              "CNIC": "98765432",
+              "current_address": "address 90",
+              "date_of_birth": "1941-09-27",
+              "father_name": "John Doe",
+              "first_name": "Jane",
+              "gender": "Female",
+              "husband_name": "None",
+              "last_name": "Doe",
+              "marital_status": "single",
+              "mother_name": "Mary Doe",
+              "permanent_address": "address 90",
+              "religion": "christian"
+          }
+      },
+      {
+          "id": "547",
+          "label": "Person",
+          "properties": {
+              "CNIC": "2554464646",
+              "current_address": "address 81",
+              "date_of_birth": "1995-07-03",
+              "father_name": "Ali Naqi Sr.",
+              "first_name": "Ali",
+              "gender": "Male",
+              "husband_name": "None",
+              "last_name": "Naqi",
+              "marital_status": "married",
+              "mother_name": "Sara Naqi",
+              "permanent_address": "address 81",
+              "religion": "islam"
+          }
+      },
+      {
+          "id": "548",
+          "label": "Person",
+          "properties": {
+              "CNIC": "3157778888",
+              "current_address": "address 5",
+              "date_of_birth": "1966-07-15",
+              "father_name": "Michael Brown",
+              "first_name": "Robert",
+              "gender": "Male",
+              "husband_name": "None",
+              "last_name": "Brown",
+              "marital_status": "single",
+              "mother_name": "Linda Brown",
+              "permanent_address": "address 5",
+              "religion": "islam"
+          }
+      },
+      {
+          "id": "549",
+          "label": "Person",
+          "properties": {
+              "CNIC": "3251112222",
+              "current_address": "address 4",
+              "date_of_birth": "1992-03-28",
+              "father_name": "James Williams",
+              "first_name": "Sarah",
+              "gender": "Female",
+              "husband_name": "None",
+              "last_name": "Williams",
+              "marital_status": "single",
+              "mother_name": "Elizabeth Williams",
+              "permanent_address": "address 4",
+              "religion": "christian"
+          }
+      },
+      {
+          "id": "550",
+          "label": "Person",
+          "properties": {
+              "CNIC": "3355555555",
+              "current_address": "address 3",
+              "date_of_birth": "1945-10-27",
+              "father_name": "Robert Johnson",
+              "first_name": "Michael",
+              "gender": "Male",
+              "husband_name": "None",
+              "last_name": "Johnson",
+              "marital_status": "single",
+              "mother_name": "Emily Johnson",
+              "permanent_address": "address 3",
+              "religion": "islam"
+          }
+      }
+  ],
+  "iconLabels": [
+    
+  ],
+  "nodes": [
+      {
+          "source": 546,
+          "target": 628,
+          "type": "TAX_PAYER"
+      },
+      {
+          "source": 546,
+          "target": 215,
+          "type": "User_info"
+      },
+      {
+          "source": 546,
+          "target": 169,
+          "type": "User_info"
+      },
+      {
+          "source": 546,
+          "target": 64,
+          "type": "User_info"
+      },
+      {
+          "source": 547,
+          "target": 629,
+          "type": "TAX_PAYER"
+      },
+      {
+          "source": 547,
+          "target": 65,
+          "type": "User_info"
+      },
+      {
+          "source": 547,
+          "target": 170,
+          "type": "User_info"
+      },
+      {
+          "source": 547,
+          "target": 216,
+          "type": "User_info"
+      },
+      {
+          "source": 548,
+          "target": 630,
+          "type": "TAX_PAYER"
+      },
+      {
+          "source": 548,
+          "target": 66,
+          "type": "User_info"
+      },
+      {
+          "source": 548,
+          "target": 171,
+          "type": "User_info"
+      },
+      {
+          "source": 548,
+          "target": 217,
+          "type": "User_info"
+      },
+      {
+          "source": 549,
+          "target": 631,
+          "type": "TAX_PAYER"
+      },
+      {
+          "source": 549,
+          "target": 67,
+          "type": "User_info"
+      },
+      {
+          "source": 549,
+          "target": 218,
+          "type": "User_info"
+      },
+      {
+          "source": 549,
+          "target": 172,
+          "type": "User_info"
+      },
+      {
+          "source": 550,
+          "target": 632,
+          "type": "TAX_PAYER"
+      },
+      {
+          "source": 550,
+          "target": 219,
+          "type": "User_info"
+      },
+      {
+          "source": 550,
+          "target": 68,
+          "type": "User_info"
+      },
+      {
+          "source": 550,
+          "target": 173,
+          "type": "User_info"
+      }
+  ]
+}
+.......................
+

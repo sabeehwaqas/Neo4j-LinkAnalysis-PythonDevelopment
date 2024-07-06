@@ -1,0 +1,336 @@
+{
+  "edges": [
+      {
+          "source": 559,
+          "target": 641,
+          "type": "tax_info"
+      },
+      {
+          "source": 641,
+          "target": 1133,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 805,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 1297,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 1051,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 1461,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 1379,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 969,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 1215,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 723,
+          "type": "Transactions"
+      },
+      {
+          "source": 641,
+          "target": 887,
+          "type": "Transactions"
+      },
+      {
+          "source": 559,
+          "target": 228,
+          "type": "User_info"
+      },
+      {
+          "source": 228,
+          "target": 379,
+          "type": "TELECOM1"
+      },
+      {
+          "source": 228,
+          "target": 448,
+          "type": "TELECOM1"
+      },
+      {
+          "source": 559,
+          "target": 77,
+          "type": "User_info"
+      },
+      {
+          "source": 77,
+          "target": 115,
+          "type": "TELECOM2"
+      },
+      {
+          "source": 77,
+          "target": 100,
+          "type": "TELECOM2"
+      },
+      {
+          "source": 559,
+          "target": 182,
+          "type": "User_info"
+      },
+      {
+          "source": 182,
+          "target": 401,
+          "type": "TELECOM3"
+      },
+      {
+          "source": 182,
+          "target": 279,
+          "type": "TELECOM3"
+      }
+  ],
+  "nodes": [
+      {
+          "id": 559,
+          "label": "Person",
+          "properties": {
+              "CNIC": "5551641111",
+              "current_address": "address 18",
+              "date_of_birth": "2021-05-01",
+              "father_name": "John Adams",
+              "first_name": "James",
+              "gender": "Male",
+              "husband_name": "None",
+              "last_name": "Adams",
+              "marital_status": "single",
+              "mother_name": "Mary Adams",
+              "permanent_address": "address 18",
+              "religion": "christian"
+          }
+      },
+      {
+          "id": 641,
+          "label": "TAX_PAYER",
+          "properties": {
+              "CNIC": "5551641111",
+              "Date_of_birth": "2021-05-01",
+              "Person_Name": "James Adams",
+              "Person_address": "address 18"
+          }
+      },
+      {
+          "id": 1133,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "564",
+              "CNIC": "5551641111",
+              "Transaction_id": "424",
+              "tax_id": "11"
+          }
+      },
+      {
+          "id": 805,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "9413750",
+              "CNIC": "5551641111",
+              "Transaction_id": "96",
+              "tax_id": "2"
+          }
+      },
+      {
+          "id": 1297,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "828",
+              "CNIC": "5551641111",
+              "Transaction_id": "588",
+              "tax_id": "13"
+          }
+      },
+      {
+          "id": 1051,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "5083425",
+              "CNIC": "5551641111",
+              "Transaction_id": "342",
+              "tax_id": "5"
+          }
+      },
+      {
+          "id": 1461,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "5083",
+              "CNIC": "5551641111",
+              "Transaction_id": "752",
+              "tax_id": "16"
+          }
+      },
+      {
+          "id": 1379,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "640",
+              "CNIC": "5551641111",
+              "Transaction_id": "670",
+              "tax_id": "14"
+          }
+      },
+      {
+          "id": 969,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "3765500",
+              "CNIC": "5551641111",
+              "Transaction_id": "260",
+              "tax_id": "4"
+          }
+      },
+      {
+          "id": 1215,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "83029",
+              "CNIC": "5551641111",
+              "Transaction_id": "506",
+              "tax_id": "12"
+          }
+      },
+      {
+          "id": 723,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "5648250",
+              "CNIC": "5551641111",
+              "Transaction_id": "14",
+              "tax_id": "1"
+          }
+      },
+      {
+          "id": 887,
+          "label": "Transactions",
+          "properties": {
+              "Amount": "8284100",
+              "CNIC": "5551641111",
+              "Transaction_id": "178",
+              "tax_id": "3"
+          }
+      },
+      {
+          "id": 228,
+          "label": "User_info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM1",
+              "city": "Rawalpindi",
+              "date_of_birth": "2021-05-01",
+              "first_name": "James",
+              "gender": "Male",
+              "last_name": "Adams",
+              "zip_code": "16989"
+          }
+      },
+      {
+          "id": 379,
+          "label": "SIM_Info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM1",
+              "IMEI_NUM": "289027664",
+              "SIM_NUM": "5257926"
+          }
+      },
+      {
+          "id": 448,
+          "label": "SIM_Info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM1",
+              "IMEI_NUM": "66966796",
+              "SIM_NUM": "543178717"
+          }
+      },
+      {
+          "id": 77,
+          "label": "User_info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM2",
+              "city": "Faislabad",
+              "date_of_birth": "2021-05-01",
+              "first_name": "James",
+              "gender": "Male",
+              "last_name": "Adams",
+              "zip_code": "19084"
+          }
+      },
+      {
+          "id": 115,
+          "label": "SIM_Info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM2",
+              "IMEI_NUM": "693152452",
+              "SIM_NUM": "319992577"
+          }
+      },
+      {
+          "id": 100,
+          "label": "SIM_Info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM2",
+              "IMEI_NUM": "224056734",
+              "SIM_NUM": "44321764"
+          }
+      },
+      {
+          "id": 182,
+          "label": "User_info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM3",
+              "city": "Rawalpindi",
+              "date_of_birth": "2021-05-01",
+              "first_name": "James",
+              "gender": "Female",
+              "last_name": "Adams",
+              "zip_code": "14295"
+          }
+      },
+      {
+          "id": 401,
+          "label": "SIM_Info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM3",
+              "IMEI_NUM": "2041228126",
+              "SIM_NUM": "1049344671"
+          }
+      },
+      {
+          "id": 279,
+          "label": "SIM_Info",
+          "properties": {
+              "CNIC": "5551641111",
+              "Database": "TELECOM3",
+              "IMEI_NUM": "1334999455",
+              "SIM_NUM": "251945206"
+          }
+      }
+  ]
+}

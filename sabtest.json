@@ -1,0 +1,38 @@
+{
+  "edges": [
+    { "source": 79721, "target": 90262, "type": "REPORTING_STATION" },
+    { "source": 79721, "target": 35019, "type": "HAS_CASE" }
+  ],
+  "nodes": [
+    {
+      "id": 90262,
+      "label": "POLICE",
+      "properties": {
+        "case_detail": "Robbery at a convenience store",
+        "time_of_fir": "2019-03-30 15:43:35",
+        "no_of_suspects": "8",
+        "progress": "pending",
+        "case_number": "ay4U5",
+        "police_station_numbers": "13778122"
+      }
+    },
+    {
+      "id": 35019,
+      "label": "NADRA",
+      "properties": {
+        "First_Name": "Mikayla",
+        "Profession": "Social research officer, government",
+        "Date_of_Birth": "1953-12-31",
+        "Last_Name": "George",
+        "Father_Name": "William Hardy",
+        "Location_Coordinates_Y": "70.18686913847512",
+        "CNIC": "94841559691",
+        "Location_Coordinates_X": "24.125604855266506",
+        "City": "Lake Beth",
+        "Gender": "Male",
+        "Age": "43"
+      }
+    }
+  ],
+  "iconLabels": []
+}

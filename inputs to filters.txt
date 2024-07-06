@@ -1,0 +1,55 @@
+is/is not
+
+{
+    "property": "CNIC",
+    "propertyvalue": "5552296666",
+    "condition": "is"
+}
+
+property exists/does not exist
+
+{
+   "property": "CNIC",
+   "condition": "property exists"/does not exist
+}
+
+is one of, is not one of
+[
+    {
+        "property": "CNIC",
+        "propertyvalue": "5552296666",
+        "condition": "is one of"
+    },
+    {
+        "property": "gender",
+        "propertyvalue": "Male",
+        "condition": "is one of"
+    },
+    {
+        "property": "religion",
+        "propertyvalue": "islam",
+        "condition": "is one of"/"is not one of"
+    }
+]
+
+COMMON NODE:
+
+[
+    {
+        "property": "CNIC",
+        "propertyvalue": "5552296666",
+        "condition": "is common node"
+    },
+    {
+        "property": "gender",
+        "propertyvalue": "Male",
+        "condition": "is common node"
+    },
+    {
+        "property": "religion",
+        "propertyvalue": "islam",
+        "condition": "is common node"
+    }
+]
+
+

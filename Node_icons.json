@@ -1,0 +1,46 @@
+[
+    {
+        "Node": "testing Node",
+        "iconLabel": "ICON"
+    },
+    {
+        "Node": "qqq",
+        "iconLabel": "Cloud"
+    },
+    {
+        "Node": "Polic3",
+        "iconLabel": "CallFilled"
+    },
+    {
+        "Node": "police5",
+        "iconLabel": "Cloud"
+    },
+    {
+        "Node": "CDR",
+        "iconLabel": "CallFilled"
+    },
+    {
+        "Node": "TELCO",
+        "iconLabel": "SimFilled"
+    },
+    {
+        "Node": "PASSPORT",
+        "iconLabel": "Passport  "
+    },
+    {
+        "Node": "NADRA",
+        "iconLabel": "PersonFilled"
+    },
+    {
+        "Node": "VISIT",
+        "iconLabel": "Flight"
+    },
+    {
+        "Node": "REPORT",
+        "iconLabel": "Report"
+    },
+    {
+        "Node": "POLICE",
+        "iconLabel": "Building"
+    }
+]
